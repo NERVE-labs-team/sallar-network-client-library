@@ -1,5 +1,9 @@
 # @sallar-network/client
 
+<p align="center">
+    <img src="./logo.svg" width="400px">
+</p>
+
 ## Description
 
 Client-side library to communicate your program running on the sallar network with your backend server.
@@ -7,7 +11,13 @@ Client-side library to communicate your program running on the sallar network wi
 ## Installation
 
 ```bash
-Coming soon :)
+$ npm i @sallar-network/client
+```
+
+## Docs
+
+```bash
+$ npm run generate-docs
 ```
 
 ## Build

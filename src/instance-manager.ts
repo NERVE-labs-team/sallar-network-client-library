@@ -19,6 +19,8 @@ export class InstanceManager {
 
   /**
    * Creates `InstanceManager` instance.
+   * 
+   * @param io Socket type from included socket.io library.
    */
   constructor(io: typeof IoType) {
     // Create socket connection
@@ -69,7 +71,7 @@ export class InstanceManager {
   /**
    * Listens for specific messages from server.
    *
-   * @param data Event name.
+   * @param event Event name.
    * @param handler Callback to handle the event.
    */
   on<T>(event: string, handler: EventHandler<T>) {
