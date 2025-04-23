@@ -18,21 +18,22 @@ You can build and test the library on your own:
 $ npm run build
 ```
 
-And add to your project:
+And add to your project via npm:
 
 ```bash
-# if you are using bundler
-
 $ npm link
 $ npm link @sallar-network/server
-$ import { InstanceManager } from '@sallar-network/server'
+```
 
-# module js
+or module js:
 
+```js
 import { InstanceManager } from './lib/index.mjs'
+```
 
-# `SallarNetworkClient` global object
+or window global object:
 
+```html
 <script src="/lib/index.global.js"></script>
 ```
 
