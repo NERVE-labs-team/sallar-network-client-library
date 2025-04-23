@@ -6,7 +6,7 @@
 
 ## Description
 
-Client-side library to communicate your program running on the sallar network with your backend server.
+Client-side library to communicate your program running on the [sallar network](https://sallar.io/) with your backend server.
 
 ## Installation
 
@@ -38,13 +38,13 @@ $ npm link @sallar-network/server
 or module js:
 
 ```js
-import { InstanceManager } from './lib/index.mjs'
+import { InstanceManager } from './dist/index.mjs'
 ```
 
 or window global object:
 
 ```html
-<script src="/lib/index.global.js"></script>
+<script src="/dist/index.global.js"></script>
 ```
 
 ## Example
