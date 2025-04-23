@@ -14,6 +14,12 @@ Client-side library to communicate your program running on the [sallar network](
 $ npm i @sallar-network/client
 ```
 
+or via cdn:
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/@sallar-network/client@1.0.0/dist/index.global.js"></script>
+```
+
 ## Docs
 
 ```bash
@@ -56,7 +62,7 @@ or window global object:
 <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
 
 <!-- The library -->
-<script src="/lib/index.global.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@sallar-network/client@1.0.0/dist/index.global.js"></script>
 
 <!-- Your program -->
 <script type="module" src="/program.js"></script>
