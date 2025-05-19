@@ -44,7 +44,7 @@ $ npm link @sallar-network/server
 or module js:
 
 ```js
-import { InstanceManager } from './dist/index.mjs'
+import { InstanceManager } from './dist/index.mjs';
 ```
 
 or window global object:
@@ -74,8 +74,10 @@ or window global object:
 const program = new SallarNetworkClient.InstanceManager(io);
 
 program.on('say-hello', (_, manager) => {
-    manager.emit('hello');
+  manager.emit('hello');
 });
 ```
 
 [See the server library](https://github.com/NERVE-labs-team/sallar-network-server-library)
+
+[See the whole project case](https://github.com/NERVE-labs-team/sallar-counter-program-example)
