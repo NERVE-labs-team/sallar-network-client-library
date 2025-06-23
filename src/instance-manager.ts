@@ -22,10 +22,10 @@ export class InstanceManager {
    * 
    * @param io Socket type from included socket.io library.
    */
-  constructor(io: typeof IoType) {
+  constructor(io: typeof IoType, server?: string) {
     // Create socket connection
 
-    this._socket = io();
+    this._socket = io(server);
 
     // Get instance data
 

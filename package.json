@@ -1,6 +1,6 @@
 {
   "name": "@sallar-network/client",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Client-side library to communicate your program running on the sallar network with your backend server",
   "main": "dist/index.global.js",
   "module": "dist/index.mjs",
